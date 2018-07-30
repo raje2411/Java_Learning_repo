@@ -4,13 +4,13 @@ public class Switch_Demo {
 
 	public static void main(String[] args) {
 		
-		for (int i=0;i<10000000;i++)
+		for (int i=0;i<100;i++)
 		{
 			switch(i) 
 			{
 			case 0:
 				System.out.println("I is Zero");
-				break;
+				break;							//If no break, then the next case will be executed. so break is must
 			case 1:
 				System.out.println("I is One");
 				break;

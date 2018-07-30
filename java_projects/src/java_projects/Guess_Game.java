@@ -19,7 +19,7 @@ public class Guess_Game {
 		System.out.println("You have entered :"+input_ch+" and .......................");
 		System.out.print("\nCountdown Starts :\n");
 		
-		for (int i=5;i>=1;i--)
+		for (int i=5;i>=1;i-=1)
 		{
 			Thread.sleep(1000);
 			System.out.println(i+"\t");
