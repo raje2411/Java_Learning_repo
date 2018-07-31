@@ -46,9 +46,10 @@ public class Help {
 			System.out.println(tab + tab + tab + "statement sequence;");
 			System.out.println(tab + tab + tab + "break;");
 			System.out.println(tab + "}");
-			System.out.println("\nNote: Switch can't use floating point variables, you need to use\nif-else-if ladder for those scenarios");
+			System.out.println(
+					"\nNote: Switch can't use floating point variables, you need to use\nif-else-if ladder for those scenarios");
 			break;
-			
+
 		case '3':
 			System.out.println("3. For Loop");
 			System.out.println();
@@ -57,10 +58,11 @@ public class Help {
 			System.out.println(tab + "statement sequences;");
 			System.out.println("}");
 			break;
-			
+
 		default:
 			System.out.println("These options are not implemented yet.\n You are free to contribute..");
 			break;
+			//rajesh
 
 		}
 
