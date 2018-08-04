@@ -6,13 +6,13 @@ class Vehicle{
 
 	public Vehicle(double m,int d) {
 		// TODO Auto-generated constructor stub
-		mpg=m*2;
+		mpg=m*2;  //manipulating the input data mpg & data at object initialization
 		dist=d*2;
 	}
 	
 	public void Vehicle_method(double m,int d) {
 		// TODO Auto-generated constructor stub
-		mpg=m*3;
+		mpg=m*3;   //manipulating the input data mpg & data
 		dist=d*3;
 	}
 	
@@ -25,6 +25,10 @@ public class ClassExample {
 		Vehicle obj_a = new Vehicle(6,1);
 		Vehicle obj_b = new Vehicle(3,1);
 
+		System.out.println("########################################################################################");
+		System.out.println("\nValues before manipulation: \n"); 
+		System.out.println("########################################################################################");
+		
 		System.out.println("                                                -----");
 		System.out.println("I am accessing Vehicle class variables through obj_a:");
 		System.out.println("                                                -----");
