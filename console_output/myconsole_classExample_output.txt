@@ -1,0 +1,34 @@
+########################################################################################
+
+Values before manipulation: 
+
+########################################################################################
+                                                -----
+I am accessing Vehicle class variables through obj_a:
+                                                -----
+mpg : 18.0
+dist : 18
+
+                                                -----
+I am accessing Vehicle class variables through obj_b:
+                                                -----
+mpg : 20.0
+dist : 4
+
+########################################################################################
+
+Values after calling Vehicle class --> Vehicle_method() to manipulate the data 
+
+########################################################################################
+                                                -----
+I am accessing Vehicle class variables through obj_a:
+                                                -----
+mpg : 54.0
+dist : 54
+
+                                                -----
+I am accessing Vehicle class variables through obj_b:
+                                                -----
+mpg : 60.0
+dist : 12
+

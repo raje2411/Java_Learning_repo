@@ -9,7 +9,7 @@ public class ifDemo {
 		if (a < b) {
 			System.out.println("a is less than b");
 		}
-	
+
 		if (a == b) {
 			System.out.println("I wont see this message");
 		}
