@@ -33,7 +33,7 @@ public class ArrayDemo {
 		 * System.out.println("number[" + i + "] is " + number[i]); }
 		 */
 
-		for (int i : number) {
+		for (int i : number) { //foreach style loop, to process the array from starting value to ending value.
 			System.out.println(" Sorted BY array values FOR number[] --> " + i);
 		}
 	}
