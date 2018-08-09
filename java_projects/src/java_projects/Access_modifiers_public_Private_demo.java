@@ -46,7 +46,7 @@ public class Access_modifiers_public_Private_demo {
 		 * +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 		 * But i can access through
 		 * access_control_class.method_to_access_private_variable() method
-		*/
+		 */
 		System.out.println("Trying to access var_private and it's value is ");
 		obj_access_test.method_to_access_private_variable();
 
