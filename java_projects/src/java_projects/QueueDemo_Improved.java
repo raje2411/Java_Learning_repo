@@ -1,10 +1,10 @@
 package java_projects;
 
-class Queue {
-	char[] q;
-	int getloc, putloc;
+class Queue_imp {
+	private char[] q;
+	private int getloc, putloc;
 
-	Queue(int qsize) {
+	Queue_imp(int qsize) {
 		getloc = putloc = 0;
 		q = new char[qsize];
 	}
@@ -28,7 +28,7 @@ class Queue {
 	}
 }
 
-public class QueueDemo {
+public class QueueDemo_Improved {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		char ch;
@@ -50,6 +50,7 @@ public class QueueDemo {
 			if (ch != (char) 0) {
 				System.out.println(bigq.get());
 			}
+			
 		}
 	
 		
