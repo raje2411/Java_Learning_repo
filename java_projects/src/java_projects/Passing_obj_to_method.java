@@ -42,6 +42,7 @@ public class Passing_obj_to_method {
 		System.out.println("Check obja dimension with objc and the result is :" + objc.check_dimension(obja));
 		// Comparing obja volume with objc
 		System.out.println("Check obja dimension with objb and the result is :" + obja.check_volume(objc));
+
 	}
 
 }
