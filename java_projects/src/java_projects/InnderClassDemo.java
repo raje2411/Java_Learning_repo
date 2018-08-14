@@ -55,12 +55,12 @@ public class InnderClassDemo {
 		int[] a = { 981, 4544, 325, 712, 223, 5232, 2322, 112, 99 };
 
 		System.out.println("Given array values");
+		
 		for (int i : a)
 			System.out.print(i+"\t");
 		System.out.println("\n");
 		Outer outob = new Outer();
-
-		outob.analyze(a);
+		//for (;;) outob.analyze(a);
 
 	}
 
