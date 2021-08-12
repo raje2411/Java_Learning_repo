@@ -2,7 +2,7 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "SELECT\n    TOP 100 *\nFROM\n    OPENROWSET(\n        BULK 'https://datalakeact0811.blob.core.windows.net/users123/NYCTripSmall.parquet',\n        FORMAT='PARQUET'\n    ) AS [test_output]\n\n\nSELECT\n    DateId,\n    count(*) AS \"Records_Per_Day\"\nFROM\n    OPENROWSET(\n        BULK 'https://datalakeact0811.blob.core.windows.net/users123/NYCTripSmall.parquet',\n        FORMAT='PARQUET'\n    ) AS [test_output]\ngroup by DateId",
+			"query": "SELECT\n    TOP 100 *\nFROM\n    OPENROWSET(\n        BULK 'https://datalakeact0811.blob.core.windows.net/users123/NYCTripSmall.parquet',\n        FORMAT='PARQUET'\n    ) AS [test_outputs]\n\n\n\nSELECT\n    DateId,\n    count(*) AS \"Records_Per_Day\"\nFROM\n    OPENROWSET(\n        BULK 'https://datalakeact0811.blob.core.windows.net/users123/NYCTripSmall.parquet',\n        FORMAT='PARQUET'\n    ) AS [test_output]\ngroup by DateId",
 			"metadata": {
 				"language": "sql"
 			},
